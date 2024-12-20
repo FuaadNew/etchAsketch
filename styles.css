@@ -1,0 +1,47 @@
+h1{
+    text-align:center;
+
+}
+body{
+    display: flex;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#clear,#size{
+    border-radius: 10px;
+    border-style:solid;
+    cursor: pointer;
+}
+
+
+#button-container{
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+
+
+
+#grid-container{
+    
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-rows: repeat(var(--grid-rows),1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    background: white;
+    border: 1px solid black;
+}
+
+#grid-item{
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+
